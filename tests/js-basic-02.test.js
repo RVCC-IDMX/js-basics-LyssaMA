@@ -104,7 +104,7 @@ TODO: assign it any word that starts with a capital A.
 */
 
 // * Add your code BELOW here
-const firstLetterIsA = Anchor;
+const firstLetterIsA = 'Anchor';
 // * Don't mess with the test code below here!
 
 test('firstLetterIsA', () => {
@@ -130,7 +130,7 @@ TODO: and two is not a space but an escaped horizontal tab character.
 */
 
 // * Add your code BELOW here
-let counting = 'one\two';
+let counting = 'one\ttwo';
 // * Don't mess with the test code below here!
 
 test('counting', () => {
@@ -154,7 +154,7 @@ TODO: assigned variable petName (from Skill 3).
 */
 
 // * Add your code BELOW here
-let mySentence = 'Hello,' + Pinto8;
+let mySentence = 'Hello, ' + petName;
 // * Don't mess with the test code below here!
 
 test('mySentence', () => {
@@ -182,7 +182,7 @@ TODO: for a JavaScript expression inside a template literal.
 */
 
 // * Add your code BELOW here
-let helloPet = 'Hello, $ {Pinto8}';
+let helloPet = `Hello, ${petName}`;
 // * Don't mess with the test code below here!
 
 test('helloPet', () => {
@@ -269,9 +269,9 @@ test('creating a message', () => {
 // ${price + tax}
 
 // * Add your code BELOW here
-tax = 8.25;
-price = 100;
-total = `Your total including tax is $${price + tax}`;
+let tax = 8.25;
+let price = 100;
+let total = `Your total including tax is $${price + tax}`;
 // * Don't mess with the test code below here!
 
 test('creating a total', () => {
@@ -285,9 +285,9 @@ test('creating a total', () => {
 // TODO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 
 // * Add your code BELOW here
-heading1 = 'JavaScript';
-heading2 = 'HTML';
-html = '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>';
+let heading1 = 'JavaScript';
+let heading2 = 'HTML';
+let html = `<h1>${heading1}</h1><h2>${heading2}</h2><p>This is a paragraph</p>`;
 // * Don't mess with the test code below here!
 
 test('html', () => {

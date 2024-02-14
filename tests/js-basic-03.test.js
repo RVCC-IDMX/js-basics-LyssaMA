@@ -82,7 +82,7 @@ TODO: Do not use the reserved word true.
 */
 
 // * Add your code BELOW here
-let isTruthy = Hello;
+let isTruthy = 'Hello';
 // * Don't mess with the test code below here!
 
 test('isTruthy', () => {
@@ -174,7 +174,7 @@ TODO: the boolean value of !!user.
 
 // * Add your code BELOW here
 let user = '';
-let isLoggedIn = !user;
+let isLoggedIn = !!user;
 // * Don't mess with the test code below here!
 
 test('isLoggedIn', () => {

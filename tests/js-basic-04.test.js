@@ -75,6 +75,7 @@ TODO: Using the Math object, assign a random number to a variable called rnd.
 */
 
 // * Add your code BELOW here
+let rnd = Math.random();
 
 // * Don't mess with the test code below here!
 
@@ -202,7 +203,7 @@ TODO: it the value of parseInt() applied to orderBagels
 */
 
 // * Add your code BELOW here
-let orderBagels = "13 is a Baker's";
+let orderBagels = "13 is a Baker's Dozen";
 const bakersDozen = parseInt(orderBagels);
 // * Don't mess with the test code below here!s
 

@@ -202,9 +202,9 @@ TODO: it the value of parseInt() applied to orderBagels
 */
 
 // * Add your code BELOW here
-let orderBagels = "13 is a Baker\'s";
+let orderBagels = "13 is a Baker's";
 const bakersDozen = parseInt(orderBagels);
-// * Don't mess with the test code below here!
+// * Don't mess with the test code below here!s
 
 test('bakersDozen', () => {
   expect(() => {
